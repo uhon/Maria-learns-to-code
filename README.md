@@ -43,9 +43,10 @@ It features a Grid-Layout (with 12 rows) so you can scale your containers (divs)
 Don't use images! If you want to use free icons to display on your page, you can go with
 * font-awesome 
 * glyphicons
-They offer hunderets of free scalbable icons, provided as font (vector-graphics). Inserting an icon is as easy as '''(html)
+They offer hunderets of free scalbable icons, provided as font (vector-graphics). Inserting an icon is as easy as 
+```html
 <i class="fa fa-iconOfYourChoice" />
-'''
+```
 
 ### Programming
 You have no choice, its Javascript (deal with it, or do better with one of the alternatives described below)
@@ -54,12 +55,12 @@ Luckily there are many tools around Javascript which make your live easier. Espe
 #### Jquery
 Although it is kind of an old-fashioned technology, it is really convenient and offers a huge range of plugins which do fancy stuff with your web-page.
 Wanna start something right after your website finished loading, use this construct:
-'''(javascript)
+```javascript
 $(function() {
 	// your code here, do something like:
 	$("#myCoolNewElement").fadeIn();
 });
-'''
+```
 
 #### Ajax (XmlHttpRequest)
 
