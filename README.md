@@ -31,6 +31,7 @@ Web-Browsers use CSS (and only CSS) for styling websites. Key here is that you w
 Although Browsers only understand CSS, you can use other approaches to style your website, namely 
 * less 
 * sass
+
 those languages are almost identical to CSS, but allow to bring in variables, nest elements and do basically all the complicated stuff for which you would write books of configuration in CSS.
 Attention: Less and Sass need to be compiled to CSS. This can be done with the technologies described under Building
 
@@ -43,6 +44,7 @@ It features a Grid-Layout (with 12 rows) so you can scale your containers (divs)
 Don't use images! If you want to use free icons to display on your page, you can go with
 * font-awesome 
 * glyphicons
+
 They offer hunderets of free scalbable icons, provided as font (vector-graphics). Inserting an icon is as easy as 
 ```html
 <i class="fa fa-iconOfYourChoice" />
@@ -81,6 +83,7 @@ If you serve a website, you want to make sure everything is delivered nicely, so
 Use one of those Building-Frameworks:  
 * grunt
 * gulp
+
 to bundle together all your assets (stylesheets and javascripts) and deliver them for your website. 
 It also provides plugins to compile less (or sass) files, does javascript-linting (checking the code for errors) and distribute it as a minified version.
 Building is part of the development-cycle. So it must happens before you call your website (your html-code only contains references to the builded js or css files)
@@ -112,6 +115,7 @@ Entering Web-Technologies means, you enter a Linux/Unix World. So throw out your
 Ok, you did dive into Backend-Programming. Now you need a way to publish your website. There are many Webserver-Solutions. Most important ones are
 * Apache
 * Nginx (engine X)
+
 This Webservers let you serve your application, whether it is on localhost or on a Linux-Server of your Choice.
 If you want to use Scala, it comes with its own webserver called Netty (included in play-framework)
 
