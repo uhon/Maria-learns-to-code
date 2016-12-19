@@ -1,6 +1,31 @@
 # Maria learns to code
 ...for Maria and everyone else interested in Web-Programming
 
+- Table of Content
+  * [Saludos](#saludos)
+  * [Introduction](#introduction)
+  * [Frontend](#frontend)
+    + [Styling](#styling)
+      - [CSS](#css)
+      - [Alternatives](#alternatives)
+      - [Bootstrap](#bootstrap)
+      - [Want an icon?](#want-an-icon)
+    + [Programming](#programming)
+      - [Jquery](#jquery)
+      - [Ajax (XmlHttpRequest)](#ajax-xmlhttprequest)
+    + [Alternatives to Javascript](#alternatives-to-javascript)
+    + [Building](#building)
+  * [Backend](#backend)
+    + [PHP](#php)
+    + [Ruby](#ruby)
+    + [Scala](#scala)
+  * [Bash!](#bash)
+  * [Hosting](#hosting)
+  * [Collaboration](#collaboration)
+  * [Hello World](#hello-world)
+  * [Share this!](#share-this)
+
+## Saludos
 Hi Maria, as promised here come the web-programming-advices from the wise old (little drunk) guy.
 As you can see, i published it on github, since it shall be accessible by any girl (or boy) who wants to learn to program.
 
@@ -88,7 +113,7 @@ to bundle together all your assets (stylesheets and javascripts) and deliver the
 It also provides plugins to compile less (or sass) files, does javascript-linting (checking the code for errors) and distribute it as a minified version.
 Building is part of the development-cycle. So it must happens before you call your website (your html-code only contains references to the builded js or css files)
 
-## Backed:
+## Backend
 Wow i don't know where to start. Seriously, there are just too many technologies you can use on the backend side. 
 
 ### PHP
@@ -119,7 +144,7 @@ Ok, you did dive into Backend-Programming. Now you need a way to publish your we
 This Webservers let you serve your application, whether it is on localhost or on a Linux-Server of your Choice.
 If you want to use Scala, it comes with its own webserver called Netty (included in play-framework)
 
-## Collaboration:
+## Collaboration
 Make yourself a github account. This is your code-sharing platform of choice and totally free for your code, as long as you don't want to hide it (public repositories are for free). 
 But why should you hide your code? All code ever written proves that you are a active developer (especially useful if you are not employed). An your code might even become handy for someone else in the future.
 For every Developer Job (no matter if frontend or backend) it is absolutely essential to use a Version-Control-System. And today there is only one reasonable choice called GIT.
